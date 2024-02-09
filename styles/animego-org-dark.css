@@ -82,9 +82,14 @@ body {
 }
 .dropdown-menu {
     background-color: #32383e;
+    color: #e9ebee;
 }
 .dropdown-item {
     color: #e9ebee;
+}
+.card-header,
+.card-footer {
+  border-color: rgba(255,255,255,.125);
 }
 #video-watch,
 #video-watch:before,
