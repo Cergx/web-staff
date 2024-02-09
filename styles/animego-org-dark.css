@@ -100,8 +100,12 @@ body {
     background-color: #2c3136;
 }
 
-.icon-play2 {
-  filter: brightness(0);
+.synonyms .read-more-link {
+  background-color: rgba(255,255,255,.2);
+}
+
+.watch-panel .online {
+  color: rgba(0,0,0,.7);
 }
 
 .searchsuggestions {
