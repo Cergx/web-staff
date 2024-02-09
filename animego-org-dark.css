@@ -1,0 +1,142 @@
+html {
+  color-scheme: dark;
+}
+body {
+  background-color: #212529;
+  color: #e9ebee;
+}
+  
+.bg-dark {
+    background-color: #212529!important;
+}
+
+#wrap {
+    background-color: #212529;
+}
+
+.text-dark {
+    color: #e9ebee!important;
+}
+
+.text-link-gray {
+    color: #e9ebee;
+}
+.card {
+  background-color: #343a40;
+}
+.content {
+    background-color: #343a40;;
+}
+.text-gray-dark-8 {
+    color: rgba(255,255,255,.8);
+}
+.text-gray-dark-7 {
+    color: rgba(255,255,255,.7);
+}
+.text-gray-dark-6 {
+    color: rgba(255,255,255,.6);
+}
+.text-gray-dark-5 {
+    color: rgba(255,255,255,.5);
+}
+.text-gray-dark-4 {
+    color: rgba(255,255,255,.4);
+}
+.text-gray-dark-3 {
+    color: rgba(255,255,255,.3);
+}
+.text-gray-dark-2 {
+    color: rgba(255,255,255,.2);
+}
+.btn-o-4 {
+    color: rgba(255,255,255,.4);
+}
+.b-tooltipped {
+    color: #e9ebee;
+}
+
+.form-control,
+.form-control:focus {
+  color: #e9ebee;
+  background-color: #343a40;
+  border: 1px solid #666;
+}
+.form-control input {
+  background: transparent;
+}
+.form-control input::placeholder {
+  color: #e9ebee;
+}
+.list-group-item-action {
+    color: #e9ebee;
+}
+.read-more-theme-cursor-one .read-more-link {
+    color: #e9ebee;
+}
+
+.list-group-item {
+    background-color: #32383e;
+}
+.bg-white {
+    background-color: #343a40!important;
+}
+.dropdown-menu {
+    background-color: #32383e;
+}
+.dropdown-item {
+    color: #e9ebee;
+}
+#video-watch,
+#video-watch:before,
+#video-watch:after{
+    background: rgba(0,0,0,0.3);
+}
+.noUi-tooltip {
+    background-color: #2c3136;
+}
+
+.icon-play2 {
+  filter: brightness(0);
+}
+
+.searchsuggestions {
+  background-color: #212529;
+  color: #e9ebee;
+}
+
+.search-form {
+  background: transparent;
+      box-shadow: none;
+}
+
+.popover {
+  background-color: #343a40;
+}
+.popover-body {
+  color: inherit;
+}
+.popover-header {
+  background-color: #212529;
+}
+.popover.bs-popover-auto[x-placement^=bottom] .arrow::after, .popover.bs-popover-bottom .arrow::after {
+  border-bottom-color: #212529;
+}
+.popover.bs-popover-auto[x-placement^=bottom] .popover-header::before,
+.popover.bs-popover-bottom .popover-header::before  {
+  border-bottom-color:#212529;
+}
+.brand-primary-light {
+  background-color: #212529;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover,
+.list-group-item-action:active {
+  background-color: #2c3136;
+}
+
+.list-group-item-action:focus,
+.list-group-item-action:hover,
+.list-group-item-action:active {
+  color: #e9ebee;
+}
