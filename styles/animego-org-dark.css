@@ -149,3 +149,7 @@ body {
 .list-group-item-action:active {
   color: #e9ebee;
 }
+
+.modal-content {
+  background-color: #212529;
+}
