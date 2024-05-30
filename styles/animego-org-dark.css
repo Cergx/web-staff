@@ -62,8 +62,8 @@ a:hover {
 .btn-o-4 {
   color: rgba(255,255,255,.4);
 }
-.b-tooltipped {
-  color: #e9ebee;
+.b-tooltipped, .b-tooltipped:hover {
+  color: inherit;
 }
 
 .form-control,
@@ -214,3 +214,45 @@ a.text-dark:focus, a.text-dark:hover {
   text-decoration: underline;
   text-decoration-color: transparent;
 }
+
+@import url("https://cergx.github.io/web-staff/styles/animego-org-dark.css");
+
+.p-poster__rate-flag {
+  pointer-events: none;
+}
+
+.read-more-container[data-read-more-init=true]::after {
+  background-image: linear-gradient(to bottom, rgba(247, 248, 250, 0), #343a40);
+}
+
+.anime-popover .description .read-more-link, .review .read-more-link {
+  color: #e9ebee;
+}
+
+#video-player .video-player-toggle-item.video-player__active .video-player-toggle-item-name:focus, #video-player .video-player-toggle-item.video-player__active .video-player-toggle-item-name:hover, #video-player .video-player-toggle-item.video-player__active:focus, #video-player .video-player-toggle-item.video-player__active:hover, #video-player-bar-menu .video-player-toggle-item.video-player__active .video-player-toggle-item-name:focus, #video-player-bar-menu .video-player-toggle-item.video-player__active .video-player-toggle-item-name:hover, #video-player-bar-menu .video-player-toggle-item.video-player__active:focus, #video-player-bar-menu .video-player-toggle-item.video-player__active:hover, .anime-popover .description .read-more-link:focus, .anime-popover .description .read-more-link:hover, .anime-tags .anime-tag, .review .read-more-link:focus, .review .read-more-link:hover, .searchsuggestions .ajax-search-results-item>a, .seasons .read-more-link:focus, .seasons .read-more-link:hover, .synonyms .read-more-link:focus, .synonyms .read-more-link:hover, .text__underline .text__underline__link:hover, .nav-link:focus, .nav-link:hover {
+    text-decoration-color: transparent;
+}
+
+.tns-slide-active .position-relative {
+  transition: .1s;
+}
+.tns-slide-active .position-relative:hover {
+  opacity: 0.7;
+}
+
+.popover.bs-popover-auto[x-placement^=top] .arrow::after, .popover.bs-popover-top .arrow::after {
+  border-top-color: #343a40;
+}
+
+.popover.bs-popover-auto[x-placement^=bottom] .arrow::after, .popover.bs-popover-bottom .arrow::after {
+  border-bottom-color: #343a40;
+}
+
+.popover.bs-popover-auto[x-placement^=right] .arrow::after, .popover.bs-popover-right .arrow::after {
+  border-right-color: #343a40;
+}
+
+.popover.bs-popover-auto[x-placement^=left] .arrow::after, .popover.bs-popover-left .arrow::after {
+  border-left-color: #343a40;
+}
+
